@@ -2,13 +2,13 @@
 
 :tomato: Pomodoro timer built with Arduino :tomato:
 
-## What is a Pomodoro?
+## What is a Pomodoro? :question_mark::tomato:
 
 The Pomodoro Technique is a time management method that uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. See https://en.wikipedia.org/wiki/Pomodoro_Technique for further details.
 
-## Components required
+It is also an Italian dish. Yum! :pizza:
 
-Pretty standard stuff, shouldn't give you any issues.
+## Components required :electric_plug:
 
 - 1x Arduino Uno + USB & power
 - 1x Push button
@@ -17,7 +17,7 @@ Pretty standard stuff, shouldn't give you any issues.
 - 9x 330 Ohm resistors
 - cables, plenty of them
 
-## Pin mapping
+## Pin mapping :world_map:
 
 | Pin | Label        |
 | --- | ------------ |
@@ -34,7 +34,7 @@ Pretty standard stuff, shouldn't give you any issues.
 | 12  | LED          |
 | 13  | LED          |
 
-## LED Mapping
+## LED Mapping :bulb:
 
 What does the lights mean? (Depends on your setup, I output every pin to an LED)
 
@@ -50,7 +50,20 @@ What does the lights mean? (Depends on your setup, I output every pin to an LED)
 | 12  | Break 4         | Finished | In progress            |
 | 13  | Input indicator | -        | Waiting for user input |
 
-## How to use
+## Pomodoro Sequence Numbering
+
+| Sequence | Meaning                                   |
+| -------- | ----------------------------------------- |
+| 0        | Initial start - waiting for input         |
+| 1        | 1st pomo in progress                      |
+| 2        | 1st pomo end, waiting to start break      |
+| 3        | 1st break in progress                     |
+| 4        | 1st break end, waiting to start next pomo |
+| 5-8      | 2nd set                                   |
+| 9-12     | 3rd set                                   |
+| 13-16    | 4th set, 16 = long break                  |
+
+## How to use :thinking:
 
 1. Switch on the Arduino. 13 will blink, along with buzzer beeps.
 
@@ -66,29 +79,29 @@ What does the lights mean? (Depends on your setup, I output every pin to an LED)
 
 1. When the whole Pomodoro is finished (4 pomodoros, 3 breaks + 1 long break), LEDs will flash sequentially. To start a new Pomodoro session, reset the board.
 
-## FAQs
+## FAQs :question:
 
 1. _Nice._
 
-    Thanks
+   Thanks
 
 2. _I hit an issue! How do I get help?_
 
-    You can submit an issue or something. I don't mind.
+   You can submit an issue, and I'll see what I can do.
 
 3. _Your version is lame. I want to make a cooler version_
 
-    Please do! If you managed to complete it, give me a mention on Twitter @potateros - I'd love to see your creation!
+   Please do! If you managed to complete it, give me a mention on Twitter @potateros - I'd love to see your creation!
 
-## To-do
+## To-do :spiral_notepad:
 
-(someday :clock:)
+(someday)
 
 - Create a 3D printed case for it
 - Draw out the schematics
 - Images of the breadboard?
 - OLED version - more detailed and easier to decipher at a glance
 
-## Anyways
+## Anyways :cool:
 
 I hope you like what I made, feel free to fork and modify to make more awesome versions out of this! :boom:
