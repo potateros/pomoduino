@@ -1,4 +1,4 @@
-# pomoduino
+# pomoduino :tomato:
 
 :tomato: Pomodoro timer built with Arduino :tomato:
 
@@ -6,7 +6,7 @@
 
 The Pomodoro Technique is a time management method that uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. See https://en.wikipedia.org/wiki/Pomodoro_Technique for further details.
 
-It is also an Italian dish. Yum! :pizza:
+It is also Italian for tomato! Yum! :tomato:
 
 ## Components required :electric_plug:
 
@@ -36,7 +36,7 @@ It is also an Italian dish. Yum! :pizza:
 
 ## LED Mapping :bulb:
 
-What does the lights mean? (Depends on your setup, I output every pin to an LED)
+What do the lights mean? (Depends on your setup, I output every pin to an LED)
 
 | Pin | Label           | Solid    | Blinking               |
 | --- | --------------- | -------- | ---------------------- |
