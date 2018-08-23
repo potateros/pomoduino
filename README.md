@@ -2,7 +2,7 @@
 
 :tomato: Pomodoro timer built with Arduino :tomato:
 
-## What is a Pomodoro? :question_mark::tomato:
+## What is a Pomodoro? :tomato::question: 
 
 The Pomodoro Technique is a time management method that uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. See https://en.wikipedia.org/wiki/Pomodoro_Technique for further details.
 
@@ -101,6 +101,7 @@ What does the lights mean? (Depends on your setup, I output every pin to an LED)
 - Draw out the schematics
 - Images of the breadboard?
 - OLED version - more detailed and easier to decipher at a glance
+- Written guide?
 
 ## Anyways :cool:
 
